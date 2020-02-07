@@ -1,0 +1,7 @@
+<ul>
+  <li> <%= post_author.name %></li>
+  <li> <%= post_author.hometown %></li>
+</ul>
+
+<%# can now use @author local variable because of the locals hash and its keys post_author: and value @author} %>
+<%# The way we use locals with a partial is similar to how we pass arguments into a method. In the locals Hash, the post_author: key is the argument name, and the value of that argument, @author, is the value stored as post_author and passed into the method. We can name the keys whatever we want. %>
